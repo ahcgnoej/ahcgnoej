@@ -1,80 +1,46 @@
-## 진채정 · Frontend Developer
+## 👋 About Me
 
-사용자 경험을 중심으로 **문제를 정의하고 해결하는** 프론트엔드 개발자입니다.<br/>
-사용자에게는 더 나은 경험을, 개발자에게는 유지보수하기 좋은 구조를 만들고자 합니다.
+사용자 경험을 중심으로 문제를 정의하고 해결하는 Frontend Developer입니다. 사용자에게는 더 나은 경험을, 함께 일하는 개발자에게는 유지보수하기 좋은 구조를 남기려고 합니다.
 
-<br/>
+## Work Experience
 
-### 🛠 Tech
+- **Miridi (미리캔버스)** — Frontend Developer Intern [템플릿 검색·탐색] `2025.12 ~ 2026.06`
+
+## Tech Stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-000?logo=typescript)
+![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript)
 ![React](https://img.shields.io/badge/React-000?logo=react)
-![React Native](https://img.shields.io/badge/React_Native-000?logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs)
+![React Native](https://img.shields.io/badge/React_Native-000?logo=react)
+![Expo](https://img.shields.io/badge/Expo-000?logo=expo)
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-000?logo=reactquery)
 ![Zustand](https://img.shields.io/badge/Zustand-000)
 ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-000?logo=reacthookform)
 ![Zod](https://img.shields.io/badge/Zod-000?logo=zod)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-000?logo=tailwindcss)
+![NativeWind](https://img.shields.io/badge/NativeWind-000)
 ![Storybook](https://img.shields.io/badge/Storybook-000?logo=storybook)
 ![Vite](https://img.shields.io/badge/Vite-000?logo=vite)
+![Biome](https://img.shields.io/badge/Biome-000?logo=biome)
+![orval](https://img.shields.io/badge/orval-000)
 
-<br/>
+## Engineering Highlights
 
-### 👩🏻‍💻 Careers
+- 템플릿 추천 페이지 초기 렌더 최적화로 LCP **3.1s → 2.8s**, Speed Index **2.6s → 2.0s** 개선
+- 3개 Fragment에 복사되어 **77개 파일**로 중복된 레거시 캐러셀을 단계적으로 모듈화
+- LLM 생성 레이아웃 검증 Linter의 유효 통과율 **23% → 49%** 개선 (팀 4인)
+- 401 토큰 재발급과 요청 큐잉 인터셉터로 React Native 앱의 3개 역할 인증 흐름 구축
+- SVG·폰트 경량화와 청크 분리로 Lighthouse 성능 **74 → 94** 개선
+- Google Sheets 기반 i18n 자동화로 4개 국어 번역을 비개발 직군이 직접 관리하도록 개선
 
-**미리디 (미리캔버스)** · Frontend Developer (Intern)<br/>
-`2025.12 ~ 2026.06` 템플릿 검색·탐색 영역
+## Activities
 
-- 템플릿 추천 페이지 초기 렌더 개선 — LCP **3.1s → 2.8s**
-- 77개 파일로 중복된 레거시 캐러셀을 단계적으로 모듈화
-- LLM 레이아웃 검증 Linter — 통과율 **23% → 49%** (팀 4인)
+- KUSITMS 32nd · Frontend
+- Programmers Cloud Frontend Engineering DevCourse
+- 제4회 고용노동 공공데이터 활용 공모전 우수상 (팀)
 
-<br/>
+## Connect
 
-### 📂 Projects
-
-**[A:SSU](https://github.com/ASSU-dev/ASSU_FE_rn)** — 숭실대학교 종합 제휴 플랫폼<br/>
-`2026.02 ~` `React Native` · [Google Play](https://play.google.com/store/apps/details?id=com.ssu.assu)
-
-- 인증 파트 담당 — 학생·제휴업체·관리자 3개 역할 회원가입
-- 401 토큰 재발급과 요청 큐잉, OpenAPI 기반 API 코드 자동 생성
-
-**[Todak](https://github.com/Todak-todak-todak/front-end)** — 노동자를 위한 통합형 산재 대응 플랫폼<br/>
-`2025.04 ~ 2025.08` `React` · [Demo](https://todak-ten.vercel.app)
-
-- 4개 국어 번역을 Google Sheets 기반으로 자동화 — 비개발 직군이 직접 관리
-- 고용노동 공공데이터 공모전 **우수상** (팀)
-
-**[안심쉼터](https://github.com/K-PaaS-Team22/shelter-web)** — 기후재난 대응형 위치기반 안전 플랫폼<br/>
-`2025.09 ~ 2025.10` `React` `Vite`
-
-- 이미지·폰트 경량화와 청크 분리로 Lighthouse 성능 **74 → 94**
-
-**[큐첵](https://github.com/Kusitms32th-KuCheck/KuCheck-Front)** — 큐시즘 학회 운영관리 서비스<br/>
-`2025.10 ~ 2025.11` `Next.js` · [Service](https://ku-check.vercel.app)
-
-- 출석·QR 출석, 상벌점, 세션 일정, 공지사항 화면과 API 연동
-
-**[KUSITMS 공식 홈페이지](https://github.com/kusitms-com/kusitms.com)**<br/>
-`2025.10 ~ 2025.12` `Next.js` · [Site](https://kusitms.com)
-
-- 병렬·인터셉팅 라우트와 Framer Motion으로 페이지 전환 구성
-
-<br/>
-
-### 📚 Education
-
-- **숭실대학교** — 행정학부 `2022.03 ~ 재학 중`
-- **프로그래머스** — 클라우드 기반 프론트엔드 엔지니어링 데브코스 `2024.09 ~ 2025.01`
-- **큐시즘** — IT 경영학회 32기 · Frontend (LG 기업 연계 프로젝트) `2025.08 ~ 2025.12`
-
-<br/>
-
-### 🏆 Awards
-
-- **제4회 고용노동 공공데이터 활용 공모전 우수상** — 한국산업인력공단이사장상 (팀) `2025.07`
-
-<br/>
-
-📝 [Velog](https://velog.io/@ahcgnoej/series)
+- Email · [jinchajung123456@gmail.com](mailto:jinchajung123456@gmail.com)
+- Blog · [velog.io/@ahcgnoej](https://velog.io/@ahcgnoej/series)
